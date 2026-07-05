@@ -21,11 +21,11 @@ function SirenBlips() {
     <>
       <div
         ref={redRef}
-        className="absolute top-30 left-10 h-[28rem] w-[28rem] rounded-full bg-red-600/20 blur-3xl opacity-20"
+        className="absolute top-30 left-10 h-[32rem] w-[32rem] rounded-full bg-red-600/10 blur-3xl opacity-20"
       />
       <div
         ref={blueRef}
-        className="absolute top-[30rem] left-10 md:top-[25rem] md:left-[50rem] lg:left-[70rem] h-[28rem] w-[28rem] rounded-full bg-blue-600/20 blur-3xl opacity-20"
+        className="absolute top-[30rem] left-10 md:top-[25rem] md:left-[50rem] lg:left-[70rem] h-[32rem] w-[32rem] rounded-full bg-blue-600/10 blur-3xl opacity-20"
       />
     </>
   );
